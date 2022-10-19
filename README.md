@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+<h1>VAMOS COMEÇAR A AVENTURA!🚀 <s>Deixa eu contextualizar...</s></h1>
+<h2>Instalando dependências: npm install</h2>
+<h2>Iniciar o projeto: npm start</h2>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h1>Requisitos</h1>
+<br>
+<div>
+<h3>1)Configure o Context</h3>
+</div>
+<br>
+<h3>2) Faça uma requisição para o endpoint https://rickandmortyapi.com/api/character e guarde os dados no contexto </h3>
+<div>
+<h3>3) Crie um componente Table que será uma tabela que receberá os dados da api</h3>
+<p>- Deve ter um campo Nome </p>
+<p>- Deve ter um campo Espécie </p>
+<p>- Deve ter um campo Gênero </p>
+<p>- Deve ter um campo Status que define se o personagem está vivo ou morto </p>
+<p>- Deve ter um campo Quantidade de Episódios</p>
+<br>
+</div>
+<br>
+<div>
+<h3>4) Crie um componente de formulário que será utilizado para filtrar os personagens</h3>
+<p>- Deve ter um campo para digitar o nome </p>
+<p>- Deve ter um campo select para o gênero </p>
+<p>- Deve ter um campo select com maior que, menor que, igual a </p>
+<p>- Deve ter um campo para digitar o número de episódios </p>
+<p>- Dica: Os campos devem ser controlados pelo contexto </p>
+</div>
+<br>
+<h3>5) Crie um filtro por nome</h3>
+<p> Ao digitar no input de nome deve mostrar apenas os personagens correspondentes na tabela</p>
+<br>
+<div>
+<h3>6) Crie um filtro por gênero</h3>
+<p> Ao selecionar um gênero deve mostrar apenas os personagens correspondentes na tabela</p>
+<br>
+</div>
+<div>
+<h2>BÔNUS</h2>
+<h3>7) Crie um filtro que ao selecionar uma opção maior que, menor que ou igual e digitar o número de um episódio, mostra apenas o personagem com o episódio correspondente</h3>
+<br>
+</div>
