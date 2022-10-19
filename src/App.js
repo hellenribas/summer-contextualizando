@@ -1,13 +1,14 @@
 import './App.css';
 import Forms from './components/Forms';
 import Table from './components/Table';
+import AppProvider from './context/appProvider';
 
 function App() {
   return (
-    <div className="App">
+    <AppProvider>
       <Forms />
       <Table />
-    </div>
+    </AppProvider>
   );
 }
 
